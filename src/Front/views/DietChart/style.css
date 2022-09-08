@@ -1,0 +1,32 @@
+.dietChartTable .react-bs-container-header{
+    display: none;
+}
+.dietChartTable .react-bs-table-tool-bar{
+    display: none;
+}
+.only-print{
+    display: none;
+}
+
+.pa-diet-screen .modal-lg.modal-dialog {
+    right: .5%;
+    width: 97%;
+    margin-top: 15px;
+}
+@media print {
+    .card .header{
+        display: none;
+    }
+    .no-print{
+        display: none;
+    }
+    .only-print{
+        display: block;
+    }
+    .page-break	{ display: block; page-break-before: always; }
+    th,td {
+        padding: 5px;
+        vertical-align: middle;
+        border: 1px solid #ddd;
+    }
+}
